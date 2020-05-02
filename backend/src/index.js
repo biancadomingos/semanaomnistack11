@@ -1,5 +1,5 @@
 const express = require("express"); //sem a "/" indica que é um package
-const cors = requeire("cors"); //módulo de segurança (quem pode acessa a aplicação)
+const cors = require("cors"); //módulo de segurança (quem pode acessa a aplicação)
 const routes = require("./routes"); // com o "./" indica que é um arquivo
 
 const app = express();
